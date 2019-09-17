@@ -1,0 +1,92 @@
+import os
+#
+#
+# def convert_bytes(num):
+#
+#     for x in ['bytes', 'KB', 'MB', 'GB', 'TB']:
+#         if num < 1024.0:
+#             return "%3.1f %s" % (num, x)
+
+
+# files=open("content.txt","r")
+# a=files.readlines()[0:]
+# for i in a:
+#     if i==1024:
+#         print("kb:",i)
+
+# list1 = input("enter your file name")
+# count=0
+# for i in list1:
+#     count=count+1
+# print("value of count",count)
+
+
+# import os
+# statinfo = os.stat('cont.txt')
+# print(statinfo.st_size)
+
+#
+# import os
+# print(os.name)
+#
+# import os
+# print(os.getcwd())
+
+
+# import os
+
+# fd = "cont.txt"
+#
+# # popen() is similar to open()
+# file = open(fd, 'w')
+# file.write("Hello")
+# file.close()
+# file = open(fd, 'r')
+# text = file.read()
+# print(text)
+#
+# file = os.popen(fd, 'w')
+# file.write("Hello")
+
+
+
+# import os
+import os
+fd = "content.txt"
+file = os.popen(fd, 'r')
+text = file.read()
+print(text)
+os.close()
+# fd = "cont.txt"
+# os.rename(fd,'content.txt')
+# os.rename(fd,'content.txt')
+
+
+
+
+
+
+
+# list1 = open("file2.txt","r")
+# a=list1.readlines()[0:]
+
+
+
+
+# list1 = open("content.txt","r")
+#
+# list1.seek(0, os.SEEK_END)
+# size = list1.tell()
+# print(size)
+#
+
+
+
+
+
+
+
+
+
+
+
